@@ -1,5 +1,5 @@
 """
-Convert an image format
+Operations about converting the format of an image
 Using the Pillow Library or OpenCV Library.
 """
 
@@ -31,3 +31,6 @@ for frame_number in range(total_frames):
     gif_image1.seek(frame_number)
     output_filename = f"{output_path_prefix}_{frame_number}.png"
     gif_image1.save(output_filename)
+
+# OpenCV
+# ...
